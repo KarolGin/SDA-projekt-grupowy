@@ -82,3 +82,32 @@
 nav{
   width: 700px;
 }
+#contact{
+  height: 200px;
+}
+#about-me__image{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+
+}
+.project__box__image{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 10px;
+}
+.blog__post{
+  width: 300px;
+  height: 300px;
+  background-image: url("https://www.zooplus.pl/magazyn/wp-content/uploads/2022/05/zolw-grecki-768x509.jpeg");
+  border-radius: 10px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.blog__text{
+  color: white;
+}
+
+

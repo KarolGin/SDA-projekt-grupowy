@@ -10,22 +10,62 @@
   <script type="module" src="./index.js"></script>
 </head>
 
-<body>
+<body class="bg-lime-100">
 <main>
-  <header class="flex justify-between">
+  <header class="flex justify-between my-10">
     <div id="logo">Logo</div>
     <nav>
       <ul class="flex justify-between">
-        <li><a href="">Project</a></li>
-        <li><a href=""></a>Blog</li>
-        <li><a href=""></a>Contact</li>
+        <li class=" hover:bg-sky-700 p-3"><a href="#project">Project</a</li>
+        <li class=" hover:bg-sky-700 p-3"><a href="#blog">Blog</a</li>
+        <li class=" hover:bg-sky-700 p-3"><a href="#contact">Contact</a</li>
       </ul>
     </nav>
   </header>
-  <section id="about-me">Lorem ipsum dolor, sit amet consectetur adipisicing </section>
-<section id="project"></section>
-<section id="blog"></section>
-<section id="contact"></section>
+  <section id="about-me" class="flex justify-center gap-10 ">
+  <div id="about-me__image">
+    <!-- <img src="http://static.goldenline.pl/user_photo/055/user_4819255_a7c5eb_huge.jpg" alt="Marek"/> -->
+  </div>
+  <div id="about-me__info"><h1 class="text-5xl">Witam jestem Marek</h1>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere.</span>
+  <h2 class="underline text-3xl text-orange-400">Umiejetnosci</h2>
+  <ul>
+    <li>-Tancze</li>
+    <li>-Spiewam</li>
+    <li>-Gotuje</li>
+    <li>-Programuje</li>
+    <li>-Rysuje</li>
+  </ul>
+
+  </div>
+  </section>
+<h2 class="text-5xl p-3 flex justify-center">Projekty</h2>
+<section id="project" class="flex flex-wrap justify-around">
+  <div class="project__box flex flex-col items-center	">
+    <div class="project__box__image"></div>
+    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
+  </div>
+  <div class="project__box flex flex-col items-center	">
+    <div class="project__box__image"></div>
+    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
+  </div>
+  <div class="project__box flex flex-col items-center">
+    
+    <div class="project__box__image"></div>
+    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
+  </div>
+</section>
+
+<section id="blog">
+<h2 class="text-5xl p-3 flex justify-center">Blog</h2>
+<div class="blog__post flex justify-center">
+  <p class="blog__text flex items-end mb-2">Lorem ipsum dolor sit.</p>
+</div>
+</section>
+
+<section id="contact"><h2 class="text-5xl p-3 flex justify-center">Contact</h2>
+
+</section>
 
 </main>
 
