@@ -3,77 +3,82 @@
 @tailwind components;
 @tailwind utilities;
 
-.wrapper {
-  background-color: gray;
-  display: flex;
-  flex-wrap: wrap;
-  // dodawanie odleglosci miedzy elementami w flexbox
-  gap: 10px;
-  width: 1000px;
-  align-items: center;
-}
+// .wrapper {
+//   background-color: gray;
+//   display: flex;
+//   flex-wrap: wrap;
+//   // dodawanie odleglosci miedzy elementami w flexbox
+//   gap: 10px;
+//   width: 1000px;
+//   align-items: center;
+// }
 
-// odnosi sie do wszystkich potomków z klasa .block-article
-// .wrapper .block-article {}
+// // odnosi sie do wszystkich potomków z klasa .block-article
+// // .wrapper .block-article {}
 
-// odnosi sie do bezposrednich potomkow w bloku .wrapper o klasie .block-article
-.wrapper > .block-article {
-  // width: 200px;
-  flex-grow: 1;
-  background-color: red;
-}
-.block-article:first-child {
-  // flex-basis: 50px;
-  border: 1px solid yellow;
-}
-.block-article:nth-child(4n) {
-  flex-grow: 4;
-}
+// // odnosi sie do bezposrednich potomkow w bloku .wrapper o klasie .block-article
+// .wrapper > .block-article {
+//   // width: 200px;
+//   flex-grow: 1;
+//   background-color: red;
+// }
+// .block-article:first-child {
+//   // flex-basis: 50px;
+//   border: 1px solid yellow;
+// }
+// .block-article:nth-child(4n) {
+//   flex-grow: 4;
+// }
 
-.relative-wrapper {
-  width: 500px;
-  height: 500px;
-  background-color: aqua;
-  position: relative;
-}
+// .relative-wrapper {
+//   width: 500px;
+//   height: 500px;
+//   background-color: aqua;
+//   position: relative;
+// }
 
-.absolute-block {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  background-color: red;
-  top: 50px;
-  // transform: translate(50%, -50%);
-  right: 50%;
-}
+// .absolute-block {
+//   width: 200px;
+//   height: 200px;
+//   position: absolute;
+//   background-color: red;
+//   top: 50px;
+//   // transform: translate(50%, -50%);
+//   right: 50%;
+// }
 
-body {
-  height: 3000px;
-}
+// body {
+//   height: 3000px;
+// }
 
-.header-fixed {
-  background: #000;
-  color: #fff;
-  padding: 50px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 999;
-}
+// .header-fixed {
+//   background: #000;
+//   color: #fff;
+//   padding: 50px;
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   z-index: 999;
+// }
 
-.sticky-wrapper {
-  padding-left: 200px;
-  height: 1000px;
-  position: relative;
-  background-color: bisque;
-}
+// .sticky-wrapper {
+//   padding-left: 200px;
+//   height: 1000px;
+//   position: relative;
+//   background-color: bisque;
+// }
 
-.sticky-block {
-  height: 150px;
-  width: 150px;
-  background-color: violet;
-  position: sticky;
-  top: 50px;
-  left: 0;
+// .sticky-block {
+//   height: 150px;
+//   width: 150px;
+//   background-color: violet;
+//   position: sticky;
+//   top: 50px;
+//   left: 0;
+// }
+
+
+nav{
+  width: 700px;
 }
