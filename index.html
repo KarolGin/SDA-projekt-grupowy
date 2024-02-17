@@ -9,81 +9,91 @@
   <link rel="stylesheet" href="./output.css" />
   <script type="module" src="./index.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
 </head>
 
 <body class="bg-lime-100">
-<main>
-  <header class="flex justify-between my-10">
-    <div id="logo">Logo</div>
-    <nav>
-      <ul class="flex justify-between">
-        <li class=" hover:bg-sky-700 p-3"><a href="#project">Project</a</li>
-        <li class=" hover:bg-sky-700 p-3"><a href="#blog">Blog</a</li>
-        <li class=" hover:bg-sky-700 p-3"><a href="#contact">Contact</a</li>
-      </ul>
-    </nav>
-  </header>
-  <section id="about-me" class="flex justify-center gap-10 ">
-  <div id="about-me__image">
-    <!-- <img src="http://static.goldenline.pl/user_photo/055/user_4819255_a7c5eb_huge.jpg" alt="Marek"/> -->
-  </div>
-  <div id="about-me__info"><h1 class="text-5xl">Witam jestem Marek</h1>
-  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere.</span>
-  <h2 class="underline text-3xl text-orange-400">Umiejetnosci</h2>
-  <ul>
-    <li>-Tancze</li>
-    <li>-Spiewam</li>
-    <li>-Gotuje</li>
-    <li>-Programuje</li>
-    <li>-Rysuje</li>
-  </ul>
+  <main>
+    <header class="flex justify-between my-10 bg-yellow-300 z-50	fixed w-full">
+      <div class="font-customFont font-semibold text-3xl" id="logo ">
+        <h2>Logo</h2>
+      </div>
+      <nav>
+        <ul class="flex justify-between">
+          <li class=" hover:bg-sky-700 p-3 font-customFont text-3xl"><a href="#project">Project</a></li>
+          <li class=" hover:bg-sky-700 p-3 font-customFont text-3xl"><a href="#blog">Blog</a></li>
+          <li class=" hover:bg-sky-700 p-3 font-customFont text-3xl"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about-me" class="flex justify-center gap-10 font-customFont p-4">
+      <div class="" id="about-me__image">
 
-  </div>
-  </section>
-<h2 class="text-5xl p-3 flex justify-center">Projekty</h2>
-<section id="project" class="flex flex-wrap justify-around">
-  <div class="project__box flex flex-col items-center	">
-    <div class="project__box__image"></div>
-    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
-  </div>
-  <div class="project__box flex flex-col items-center	">
-    <div class="project__box__image"></div>
-    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
-  </div>
-  <div class="project__box flex flex-col items-center">
-    
-    <div class="project__box__image"></div>
-    <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione. </span>
-  </div>
-</section>
+      </div>
+      <div id="about-me__info">
+        <h1 class="text-5xl font-customFont">Witam jestem Marek</h1>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere.</span>
+        <h2 class="underline text-3xl text-orange-400">Umiejetnosci</h2>
+        <ul>
+          <li>-Tancze</li>
+          <li>-Spiewam</li>
+          <li>-Gotuje</li>
+          <li>-Programuje</li>
+          <li>-Rysuje</li>
+        </ul>
 
-<section id="blog">
-<h2 class="text-5xl p-3 flex justify-center">Blog</h2>
-<div class="blog__post flex justify-center">
-  <p class="blog__text flex items-end mb-2">Lorem ipsum dolor sit.</p>
-</div>
-</section>
-<h2 class="text-5xl p-3 flex justify-center">Contact</h2>
-<section id="contact" class="flex">
-  <div>
-    <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Wyslij</button>
-  </form> 
-</div>
+      </div>
+    </section>
+    <h2 class="text-5xl p-3 flex justify-center font-customFont font-bold">Projekty</h2>
+    <section id="project" class="flex flex-wrap justify-around">
+      <div class="project__box flex flex-col items-center	">
+        <div class="project__box__image pb-5"></div>
+        <span class="project__box__info t">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione.
+        </span>
+      </div>
+      <div class="project__box flex flex-col items-center	">
+        <div class="project__box__image"></div>
+        <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione.
+        </span>
+      </div>
+      <div class="project__box flex flex-col items-center">
 
-<div class="icon">
-  <i class="fab fa-facebook"></i>
-</div>
+        <div class="project__box__image "></div>
+        <span class="project__box__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, ratione.
+        </span>
+      </div>
+    </section>
 
+    <section id="blog">
+      <h2 class="text-5xl p-3 flex justify-center font-customFont font-bold">Blog</h2>
+      <div class="blog__post flex justify-center">
+        <p class="blog__text flex items-end mb-2">Lorem ipsum dolor sit.</p>
+      </div>
+    </section>
+    <h2 class="text-5xl p-3 flex justify-center font-customFont font-bold">Contact</h2>
+    <section id="contact" class="flex justify-center">
+      <div>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Wyslij</button>
+        </form>
+      </div>
 
-</section>
+    </section>
 
-<h1 class="text-sm md:text-md lg:text-2xl m-1 font-customFont">Responsywny header</h1>
-</main>
+    <footer class="w-auto h-auto bg-gray-400 bottom-0	">
+      <div class="flex justify-center icon text-4xl">
+          <i id="facebook___icon" class="fab fa-facebook"></i>
+          <i id="twitter___icon" class="fab fa-twitter"></i>
+          <i id="instagram___icon" class="fab fa-instagram "></i>
+          <i class="fab fa-github "></i>
+
+      </div>
+    </footer>
+  </main>
 
 
 </body>
