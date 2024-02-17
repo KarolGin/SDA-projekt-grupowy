@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../ZDFRONpol32"
+		},
+		{
+			"path": "../FrontPol"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FrontPol"
+	}
+}

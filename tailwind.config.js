@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    screens:{
+sm: "500px",
+lg: "650px",
+    },
+    extend: {
+      fontFamily:{
+        customFont: "oswald",
+      },
+    },
   },
   plugins: [],
 }
